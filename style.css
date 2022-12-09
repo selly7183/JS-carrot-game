@@ -93,7 +93,7 @@ body {
 	height: 60px;
 	font-size: 24px;
 	background-color: var(--color-wheat);
-	border: 2px solid var(--background-black);
+	border: 2px solid var(--color-black);
 	border-radius: 50%;
 }
 .pop-up__message {
