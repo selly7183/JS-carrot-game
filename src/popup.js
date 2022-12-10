@@ -7,11 +7,11 @@ export default class PopUp {
 		this.popUpRefresh = document.querySelector(".pop-up__refresh");
 		this.popUpRefresh.addEventListener("click", () => {
 			this.onClick && this.onClick();
-			hide();
+			this.hide();
 		});
 	}
 	setClickListener(onClick) {
-		this.onClick = onClick();
+		this.onClick = onClick;
 	}
 
 	showWidthText(text) {
